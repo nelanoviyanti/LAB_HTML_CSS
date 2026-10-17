@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Kampus STT Cipasung</title>
+
+    <style>
+      /* Pengaturan dasar halaman */
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 16px;
+        line-height: 1.6;
+        color: #222;
+      }
+
+      /* Header halaman */
+      header {
+        background-color: #003366;
+        color: white;
+        padding: 20px;
+      }
+
+      /* Navigasi */
+      nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav a {
+        color: #003366;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      /* Konten utama */
+      main {
+        padding: 16px 0;
+      }
+
+      section {
+        margin-bottom: 24px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Formulir */
+      label {
+        display: block;
+        margin-top: 12px;
+      }
+
+      input {
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
+        padding: 8px;
+      }
+
+      button {
+        margin-top: 16px;
+        padding: 8px 16px;
+        cursor: pointer;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+        padding: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>STT Cipasung</h1>
+      <p>Sekolah Tinggi Teknologi Cipasung, Tasikmalaya</p>
+
+      <nav aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#programs">Program Studi</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>STT Cipasung adalah sekolah tinggi teknologi di Tasikmalaya.</p>
+        <img
+          src="https://placehold.co/600x300?text=STT+Cipasung"
+          alt="Ilustrasi kampus STT Cipasung"
+        />
+      </section>
+
+      <section id="programs">
+        <h2>Program Studi</h2>
+        <p>
+          STT Cipasung menyelenggarakan pendidikan di bidang teknologi, termasuk
+          program studi Informatika.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Kontak</h2>
+
+        <form action="#" method="get">
+          <label for="nama">Nama:</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            autocomplete="name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+          />
+
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 STT Cipasung</p>
+    </footer>
+  </body>
+</html>
